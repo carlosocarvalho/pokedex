@@ -25,6 +25,9 @@ export const PokeCardContainerMeta = styled.div`
 
 
 export const PokeCardImageContainer = styled.div`
-   text-align: 'center';
+   text-align: center;
    padding-bottom: 20px;
+   img{
+    height: 120px;
+   }
 `

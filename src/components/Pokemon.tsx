@@ -11,8 +11,8 @@ export function Pokemon(props: PokemonProps) {
     return (
         <div className="uk-width-1-5@m ">
             <PokeCard className="pokemon__card uk-card-default uk-card  ">
-                <PokeCardImageContainer className="pokemon__image uk-card-media-top">
-                    <img style={{ height: 120 }} src={pokemon.image} alt={pokemon.name} />
+                <PokeCardImageContainer className="uk-card-media-top">
+                    <img  src={pokemon.image} alt={pokemon.name} />
                 </PokeCardImageContainer>
                 <PokeCardContainerMeta className="uk-card-body">
                     <div className="pokemon__name">
